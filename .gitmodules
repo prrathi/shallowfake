@@ -1,3 +1,6 @@
 [submodule "robust_speech"]
 	path = robust_speech
 	url = https://github.com/prrathi/robust_speech
+[submodule "speechbrain"]
+	path = speechbrain
+	url = https://github.com/prrathi/speechbrain
