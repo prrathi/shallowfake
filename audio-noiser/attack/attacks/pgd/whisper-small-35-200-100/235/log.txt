@@ -1,0 +1,4885 @@
+2023-12-09 23:45:07,711 - speechbrain.core - INFO - Beginning experiment!
+2023-12-09 23:45:07,711 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-09 23:45:08,888 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-09 23:45:08,906 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-09 23:45:09,037 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-09 23:45:23,214 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-09 23:45:23,235 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 00:15:07,324 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 208, in <module>
+    evaluate(hparams_file, run_opts, overrides)
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 189, in evaluate
+    target_brain.evaluate(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 791, in evaluate
+    loss = self.evaluate_batch(batch, stage=sb.Stage.TEST)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 455, in evaluate_batch
+    loss = self.compute_objectives(out, batch, stage=stage)
+  File "/home/praneet/mlsp-speech-noiser/sb_whisper_binding.py", line 142, in compute_objectives
+    self.adv_cer_metric_target.append(
+  File "/home/praneet/.local/lib/python3.9/site-packages/speechbrain/utils/metric_stats.py", line 289, in append
+    scores = wer_details_for_batch(ids, target, predict, True)
+  File "/home/praneet/.local/lib/python3.9/site-packages/speechbrain/utils/edit_distance.py", line 379, in wer_details_for_batch
+    return wer_details_by_utterance(
+  File "/home/praneet/.local/lib/python3.9/site-packages/speechbrain/utils/edit_distance.py", line 478, in wer_details_by_utterance
+    table = op_table(ref_tokens, hyp_tokens)
+  File "/home/praneet/.local/lib/python3.9/site-packages/speechbrain/utils/edit_distance.py", line 166, in op_table
+    curr_row = [0] * (len(b) + 1)  # Just init to zero
+  File "/home/praneet/.local/lib/python3.9/site-packages/speechbrain/utils/edit_distance.py", line 166, in op_table
+    curr_row = [0] * (len(b) + 1)  # Just init to zero
+  File "/usr/lib/python3.9/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.9/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+2023-12-10 00:15:48,153 - speechbrain.core - INFO - Beginning experiment!
+2023-12-10 00:15:48,154 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-10 00:15:49,321 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-10 00:15:49,339 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-10 00:15:49,458 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-10 00:15:57,617 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 00:15:57,626 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 00:20:30,095 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 208, in <module>
+    evaluate(hparams_file, run_opts, overrides)
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 189, in evaluate
+    target_brain.evaluate(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 791, in evaluate
+    loss = self.evaluate_batch(batch, stage=sb.Stage.TEST)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 455, in evaluate_batch
+    loss = self.compute_objectives(out, batch, stage=stage)
+  File "/home/praneet/mlsp-speech-noiser/sb_whisper_binding.py", line 154, in compute_objectives
+    # print(" ".join(predicted_words[0]))
+  File "/home/praneet/.local/lib/python3.9/site-packages/speechbrain/utils/metric_stats.py", line 289, in append
+    scores = wer_details_for_batch(ids, target, predict, True)
+  File "/home/praneet/.local/lib/python3.9/site-packages/speechbrain/utils/metric_stats.py", line 289, in append
+    scores = wer_details_for_batch(ids, target, predict, True)
+  File "/usr/lib/python3.9/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.9/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+2023-12-10 00:20:52,152 - speechbrain.core - INFO - Beginning experiment!
+2023-12-10 00:20:52,153 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-10 00:20:53,344 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-10 00:20:53,362 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-10 00:20:53,484 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-10 00:21:01,743 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 00:21:01,751 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 00:25:17,112 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 208, in <module>
+    evaluate(hparams_file, run_opts, overrides)
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 189, in evaluate
+    target_brain.evaluate(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 792, in evaluate
+    loss = self.evaluate_batch(batch, stage=sb.Stage.TEST)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 455, in evaluate_batch
+    out = self.compute_forward(batch, stage=stage)
+  File "/home/praneet/mlsp-speech-noiser/sb_whisper_binding.py", line 27, in compute_forward
+    def compute_forward(self, batch, stage):
+  File "/usr/lib/python3.9/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_call(frame, arg)
+  File "/usr/lib/python3.9/bdb.py", line 135, in dispatch_call
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+2023-12-10 00:25:20,868 - speechbrain.core - INFO - Beginning experiment!
+2023-12-10 00:25:20,868 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-10 00:25:22,033 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-10 00:25:22,051 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-10 00:25:22,172 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-10 00:25:30,398 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 00:25:30,406 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 00:32:38,475 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 208, in <module>
+    evaluate(hparams_file, run_opts, overrides)
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 189, in evaluate
+    target_brain.evaluate(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 792, in evaluate
+    loss = self.evaluate_batch(batch, stage=sb.Stage.TEST)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 455, in evaluate_batch
+    loss = self.compute_objectives(out, batch, stage=stage)
+  File "/home/praneet/mlsp-speech-noiser/sb_whisper_binding.py", line 160, in compute_objectives
+    self.wer_metric.append(ids, predicted_words, target_words)
+  File "/home/praneet/mlsp-speech-noiser/sb_whisper_binding.py", line 160, in compute_objectives
+    self.wer_metric.append(ids, predicted_words, target_words)
+  File "/usr/lib/python3.9/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.9/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+2023-12-10 00:32:42,228 - speechbrain.core - INFO - Beginning experiment!
+2023-12-10 00:32:42,228 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-10 00:32:43,398 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-10 00:32:43,416 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-10 00:32:43,538 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-10 00:32:51,730 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 00:32:51,739 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 00:44:11,458 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 208, in <module>
+    evaluate(hparams_file, run_opts, overrides)
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 189, in evaluate
+    target_brain.evaluate(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 796, in evaluate
+    adv_loss, adv_loss_target, stoi = self.evaluate_batch_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 493, in evaluate_batch_adversarial
+    predictions, adv_wav = self.compute_forward_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 308, in compute_forward_adversarial
+    adv_wavs = self.attacker.perturb_and_log(batch)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/attacker.py", line 91, in perturb_and_log
+    adv_wav = self.perturb(batch)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 639, in perturb
+    lambda_stoi=lambda_stoi,
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 356, in perturb
+    the tensor of the perturbed batch
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 80, in pgd_loop
+    tensor containing the perturbed input.
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 80, in pgd_loop
+    tensor containing the perturbed input.
+  File "/usr/lib/python3.9/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.9/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+2023-12-10 00:44:15,882 - speechbrain.core - INFO - Beginning experiment!
+2023-12-10 00:44:15,883 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-10 00:44:17,065 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-10 00:44:17,085 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-10 00:44:17,214 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-10 00:44:25,465 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 00:44:25,474 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 00:45:13,967 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 208, in <module>
+    evaluate(hparams_file, run_opts, overrides)
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 189, in evaluate
+    target_brain.evaluate(
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 189, in evaluate
+    target_brain.evaluate(
+  File "/usr/lib/python3.9/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.9/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+2023-12-10 00:45:17,718 - speechbrain.core - INFO - Beginning experiment!
+2023-12-10 00:45:17,718 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-10 00:45:18,885 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-10 00:45:18,903 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-10 00:45:19,026 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-10 00:45:27,205 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 00:45:27,213 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 00:59:59,043 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 208, in <module>
+    evaluate(hparams_file, run_opts, overrides)
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 189, in evaluate
+    target_brain.evaluate(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 796, in evaluate
+    batch, stage=sb.Stage.TEST, target=target
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 483, in evaluate_batch_adversarial
+    self, "tokenizer") else self.hparams.tokenizer
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 483, in evaluate_batch_adversarial
+    self, "tokenizer") else self.hparams.tokenizer
+  File "/usr/lib/python3.9/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.9/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+2023-12-10 01:00:42,673 - speechbrain.core - INFO - Beginning experiment!
+2023-12-10 01:00:42,674 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-10 01:00:43,837 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-10 01:00:43,856 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-10 01:00:43,976 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-10 01:00:52,134 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:00:52,143 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:00:58,523 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 208, in <module>
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 189, in evaluate
+    test_datasets[k],
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 789, in evaluate
+    for i, batch in enumerate(test_set, dynamic_ncols=True):
+TypeError: 'dynamic_ncols' is an invalid keyword argument for enumerate()
+2023-12-10 01:01:30,906 - speechbrain.core - INFO - Beginning experiment!
+2023-12-10 01:01:30,907 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-10 01:01:32,068 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-10 01:01:32,085 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-10 01:01:32,206 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-10 01:01:40,418 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:01:40,427 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:01:41,492 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 207, in <module>
+    evaluate(hparams_file, run_opts, overrides)
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 188, in evaluate
+    target_brain.evaluate(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 795, in evaluate
+    adv_loss, adv_loss_target, stoi = self.evaluate_batch_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 492, in evaluate_batch_adversarial
+    predictions, adv_wav = self.compute_forward_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 308, in compute_forward_adversarial
+    adv_wavs = self.attacker.perturb_and_log(batch, tokenizer=self.tokenizer)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/attacker.py", line 91, in perturb_and_log
+    adv_wav = self.perturb(batch, tokenizer=tokenizer)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 666, in perturb
+    res = super(SNRPGDAttack, self).perturb(batch, tokenizer=tokenizer)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 382, in perturb
+    wav_adv = pgd_loop(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 101, in pgd_loop
+    result = self.modules.whisper.model.loss(
+NameError: name 'self' is not defined
+2023-12-10 01:02:07,778 - speechbrain.core - INFO - Beginning experiment!
+2023-12-10 01:02:07,778 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-10 01:02:08,972 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-10 01:02:08,989 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-10 01:02:09,112 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-10 01:02:17,385 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:02:17,393 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:03:44,052 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 207, in <module>
+    evaluate(hparams_file, run_opts, overrides)
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 188, in evaluate
+    target_brain.evaluate(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 795, in evaluate
+    adv_loss, adv_loss_target, stoi = self.evaluate_batch_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 492, in evaluate_batch_adversarial
+    predictions, adv_wav = self.compute_forward_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 308, in compute_forward_adversarial
+    adv_wavs = self.attacker.perturb_and_log(batch, tokenizer=self.tokenizer)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/attacker.py", line 91, in perturb_and_log
+    adv_wav = self.perturb(batch, tokenizer=tokenizer)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 667, in perturb
+    return res.to(save_device)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 383, in perturb
+    nb_iter=self.nb_iter,
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 115, in pgd_loop
+    if lambda_stoi != 0:
+  File "/home/praneet/mlsp-speech-noiser/sb_whisper_binding.py", line 27, in compute_forward
+    def compute_forward(self, batch, stage):
+  File "/usr/lib/python3.9/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_call(frame, arg)
+  File "/usr/lib/python3.9/bdb.py", line 135, in dispatch_call
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+2023-12-10 01:03:49,381 - speechbrain.core - INFO - Beginning experiment!
+2023-12-10 01:03:49,382 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-10 01:03:50,544 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-10 01:03:50,563 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-10 01:03:50,684 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-10 01:03:58,873 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:03:58,882 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:05:13,482 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 207, in <module>
+    evaluate(hparams_file, run_opts, overrides)
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 188, in evaluate
+    target_brain.evaluate(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 795, in evaluate
+    adv_loss, adv_loss_target, stoi = self.evaluate_batch_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 492, in evaluate_batch_adversarial
+    predictions, adv_wav = self.compute_forward_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 308, in compute_forward_adversarial
+    adv_wavs = self.attacker.perturb_and_log(batch, tokenizer=self.tokenizer)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/attacker.py", line 91, in perturb_and_log
+    adv_wav = self.perturb(batch, tokenizer=tokenizer)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 664, in perturb
+    self.eps = 1.0
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 380, in perturb
+    batch,
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 104, in pgd_loop
+    str.maketrans('', '', string.punctuation)) for t in pred_tokens]
+  File "/usr/lib/python3.9/bdb.py", line 94, in trace_dispatch
+    return self.dispatch_exception(frame, arg)
+  File "/usr/lib/python3.9/bdb.py", line 174, in dispatch_exception
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+2023-12-10 01:05:17,255 - speechbrain.core - INFO - Beginning experiment!
+2023-12-10 01:05:17,256 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-10 01:05:18,430 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-10 01:05:18,449 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-10 01:05:18,558 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-10 01:05:26,792 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:05:26,800 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:05:32,907 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 207, in <module>
+    evaluate(hparams_file, run_opts, overrides)
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 188, in evaluate
+    target_brain.evaluate(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 795, in evaluate
+    adv_loss, adv_loss_target, stoi = self.evaluate_batch_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 492, in evaluate_batch_adversarial
+    predictions, adv_wav = self.compute_forward_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 308, in compute_forward_adversarial
+    adv_wavs = self.attacker.perturb_and_log(batch, tokenizer=self.tokenizer)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/attacker.py", line 91, in perturb_and_log
+    adv_wav = self.perturb(batch, tokenizer=tokenizer)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 663, in perturb
+    res = super(SNRPGDAttack, self).perturb(batch, tokenizer=tokenizer)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 379, in perturb
+    wav_adv = pgd_loop(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 101, in pgd_loop
+    predictions = asr_brain.compute_forward(batch, rs.Stage.ATTACK)
+  File "/home/praneet/mlsp-speech-noiser/sb_whisper_binding.py", line 79, in compute_forward
+    result = self.modules.whisper.model.loss(
+  File "/home/praneet/mlsp-speech-noiser/loss.py", line 415, in get_loss_single_segment
+    result: LossResult = get_loss_from_mel(
+  File "/home/praneet/mlsp-speech-noiser/loss.py", line 154, in get_loss_from_mel
+    result = LossTask(model, confidence, correct_first_word,
+  File "/home/praneet/mlsp-speech-noiser/loss.py", line 74, in run
+    init_tokens: Tensor = torch.tensor([self.initial_tokens]).repeat(
+KeyboardInterrupt
+2023-12-10 01:06:07,013 - speechbrain.core - INFO - Beginning experiment!
+2023-12-10 01:06:07,013 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-10 01:06:08,213 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-10 01:06:08,232 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-10 01:06:08,356 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-10 01:06:16,534 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:06:16,543 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:06:19,069 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 207, in <module>
+    evaluate(hparams_file, run_opts, overrides)
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 188, in evaluate
+    target_brain.evaluate(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 795, in evaluate
+    adv_loss, adv_loss_target, stoi = self.evaluate_batch_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 492, in evaluate_batch_adversarial
+    predictions, adv_wav = self.compute_forward_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 308, in compute_forward_adversarial
+    adv_wavs = self.attacker.perturb_and_log(batch, tokenizer=self.tokenizer)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/attacker.py", line 91, in perturb_and_log
+    adv_wav = self.perturb(batch, tokenizer=tokenizer)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 665, in perturb
+    res = super(SNRPGDAttack, self).perturb(batch, tokenizer=tokenizer)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 381, in perturb
+    wav_adv = pgd_loop(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 101, in pgd_loop
+    predictions = asr_brain.compute_forward(batch, rs.Stage.ATTACK)
+  File "/home/praneet/mlsp-speech-noiser/sb_whisper_binding.py", line 52, in compute_forward
+    wavs = self.hparams.smoothing(wavs, wav_lens)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/defenses/smoothing.py", line 43, in __call__
+    return self.forward(*args, **kwargs)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/defenses/smoothing.py", line 26, in forward
+    sig_lens = [int(l*sigs.size(1)) for l in sig_lens]
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/defenses/smoothing.py", line 26, in <listcomp>
+    sig_lens = [int(l*sigs.size(1)) for l in sig_lens]
+KeyboardInterrupt
+2023-12-10 01:07:03,128 - speechbrain.core - INFO - Beginning experiment!
+2023-12-10 01:07:03,129 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-10 01:07:04,313 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-10 01:07:04,332 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-10 01:07:04,457 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-10 01:07:12,630 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:07:12,639 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:07:34,060 - speechbrain.core - INFO - Beginning experiment!
+2023-12-10 01:07:34,060 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-10 01:07:35,237 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-10 01:07:35,256 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-10 01:07:35,381 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-10 01:07:43,598 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:07:43,606 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:07:46,567 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 207, in <module>
+    evaluate(hparams_file, run_opts, overrides)
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 188, in evaluate
+    target_brain.evaluate(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 795, in evaluate
+    adv_loss, adv_loss_target, stoi = self.evaluate_batch_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 492, in evaluate_batch_adversarial
+    predictions, adv_wav = self.compute_forward_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 308, in compute_forward_adversarial
+    adv_wavs = self.attacker.perturb_and_log(batch, tokenizer=self.tokenizer)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/attacker.py", line 91, in perturb_and_log
+    adv_wav = self.perturb(batch, tokenizer=tokenizer)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 663, in perturb
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 379, in perturb
+    eps=self.eps,
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 101, in pgd_loop
+    predicted_words = [wrd.split(" ") for wrd in predicted_words]
+  File "/home/praneet/mlsp-speech-noiser/sb_whisper_binding.py", line 79, in compute_forward
+    result = self.modules.whisper.model.loss(
+  File "/home/praneet/mlsp-speech-noiser/loss.py", line 415, in get_loss_single_segment
+    result: LossResult = get_loss_from_mel(
+  File "/home/praneet/mlsp-speech-noiser/loss.py", line 154, in get_loss_from_mel
+    result = LossTask(model, confidence, correct_first_word,
+  File "/home/praneet/mlsp-speech-noiser/loss.py", line 74, in run
+    init_tokens: Tensor = torch.tensor([self.initial_tokens]).repeat(
+KeyboardInterrupt
+2023-12-10 01:08:00,259 - speechbrain.core - INFO - Beginning experiment!
+2023-12-10 01:08:00,260 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-10 01:08:01,444 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-10 01:08:01,463 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-10 01:08:01,588 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-10 01:08:09,934 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:08:09,943 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:12:49,132 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 207, in <module>
+    evaluate(hparams_file, run_opts, overrides)
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 188, in evaluate
+    target_brain.evaluate(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 795, in evaluate
+    adv_loss, adv_loss_target, stoi = self.evaluate_batch_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 492, in evaluate_batch_adversarial
+    predictions, adv_wav = self.compute_forward_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 308, in compute_forward_adversarial
+    adv_wavs = self.attacker.perturb_and_log(batch, tokenizer=self.tokenizer)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/attacker.py", line 91, in perturb_and_log
+    adv_wav = self.perturb(batch, tokenizer=tokenizer)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 660, in perturb
+    res = super(SNRPGDAttack, self).perturb(batch, tokenizer=tokenizer)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 376, in perturb
+    wav_adv = pgd_loop(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 107, in pgd_loop
+    print(str(nbi) + ": " + str(wer))
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 107, in pgd_loop
+    print(str(nbi) + ": " + str(wer))
+  File "/usr/lib/python3.9/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.9/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+2023-12-10 01:12:53,890 - speechbrain.core - INFO - Beginning experiment!
+2023-12-10 01:12:53,890 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-10 01:12:55,065 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-10 01:12:55,085 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-10 01:12:55,210 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-10 01:13:03,408 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:13:03,416 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:13:05,988 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 207, in <module>
+    evaluate(hparams_file, run_opts, overrides)
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 188, in evaluate
+    target_brain.evaluate(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 795, in evaluate
+    adv_loss, adv_loss_target, stoi = self.evaluate_batch_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 492, in evaluate_batch_adversarial
+    predictions, adv_wav = self.compute_forward_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 308, in compute_forward_adversarial
+    adv_wavs = self.attacker.perturb_and_log(batch, tokenizer=self.tokenizer)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/attacker.py", line 91, in perturb_and_log
+    adv_wav = self.perturb(batch, tokenizer=tokenizer)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 660, in perturb
+    res = super(SNRPGDAttack, self).perturb(batch, tokenizer=tokenizer)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 376, in perturb
+    wav_adv = pgd_loop(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 98, in pgd_loop
+    predictions = asr_brain.compute_forward(batch, rs.Stage.ATTACK)
+  File "/home/praneet/mlsp-speech-noiser/sb_whisper_binding.py", line 52, in compute_forward
+    wavs = self.hparams.smoothing(wavs, wav_lens)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/defenses/smoothing.py", line 43, in __call__
+    return self.forward(*args, **kwargs)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/defenses/smoothing.py", line 26, in forward
+    sig_lens = [int(l*sigs.size(1)) for l in sig_lens]
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/defenses/smoothing.py", line 26, in <listcomp>
+    sig_lens = [int(l*sigs.size(1)) for l in sig_lens]
+KeyboardInterrupt
+2023-12-10 01:16:44,440 - speechbrain.core - INFO - Beginning experiment!
+2023-12-10 01:16:44,441 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-10 01:16:45,609 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-10 01:16:45,628 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-10 01:16:45,754 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-10 01:16:53,954 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:16:53,962 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:18:17,811 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 207, in <module>
+    evaluate(hparams_file, run_opts, overrides)
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 188, in evaluate
+    target_brain.evaluate(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 795, in evaluate
+    adv_loss, adv_loss_target, stoi = self.evaluate_batch_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 492, in evaluate_batch_adversarial
+    predictions, adv_wav = self.compute_forward_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 308, in compute_forward_adversarial
+    adv_wavs = self.attacker.perturb_and_log(batch, tokenizer=self.tokenizer)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/attacker.py", line 91, in perturb_and_log
+    adv_wav = self.perturb(batch, tokenizer=tokenizer)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 660, in perturb
+    res = super(SNRPGDAttack, self).perturb(batch, tokenizer=tokenizer)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 376, in perturb
+    wav_adv = pgd_loop(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 98, in pgd_loop
+    predictions = asr_brain.compute_forward(batch, rs.Stage.ATTACK)
+  File "/home/praneet/mlsp-speech-noiser/sb_whisper_binding.py", line 79, in compute_forward
+    result = self.modules.whisper.model.loss(
+  File "/home/praneet/mlsp-speech-noiser/loss.py", line 415, in get_loss_single_segment
+    result: LossResult = get_loss_from_mel(
+  File "/home/praneet/mlsp-speech-noiser/loss.py", line 154, in get_loss_from_mel
+    result = LossTask(model, confidence, correct_first_word,
+  File "/home/praneet/mlsp-speech-noiser/loss.py", line 106, in run
+    tokens, sum_logprobs = self.decoder.finalize(tokens, sum_logprobs)
+  File "/home/praneet/.local/lib/python3.9/site-packages/whisper/decoding.py", line 298, in finalize
+    return tokens, sum_logprobs.tolist()
+KeyboardInterrupt
+2023-12-10 01:29:20,835 - speechbrain.core - INFO - Beginning experiment!
+2023-12-10 01:29:20,836 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-10 01:29:21,992 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-10 01:29:22,010 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-10 01:29:22,126 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-10 01:29:30,459 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:29:30,467 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:29:33,916 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 212, in <module>
+    evaluate(hparams_file, run_opts, overrides)
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 193, in evaluate
+    target_brain.evaluate(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 795, in evaluate
+    adv_loss, adv_loss_target, stoi = self.evaluate_batch_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 492, in evaluate_batch_adversarial
+    predictions, adv_wav = self.compute_forward_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 308, in compute_forward_adversarial
+    adv_wavs = self.attacker.perturb_and_log(batch, log=self.hparams.my_log_file)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/attacker.py", line 91, in perturb_and_log
+    adv_wav = self.perturb(batch, log=log)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 660, in perturb
+    res = super(SNRPGDAttack, self).perturb(batch, log=log)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 376, in perturb
+    wav_adv = pgd_loop(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 100, in pgd_loop
+    predicted_words = [tokenizer.decode(t).strip().upper().translate(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 100, in <listcomp>
+    predicted_words = [tokenizer.decode(t).strip().upper().translate(
+NameError: name 'tokenizer' is not defined
+2023-12-10 01:31:24,269 - speechbrain.core - INFO - Beginning experiment!
+2023-12-10 01:31:24,269 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-10 01:31:25,454 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-10 01:31:25,472 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-10 01:31:25,593 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-10 01:31:33,839 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:31:33,847 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:32:07,569 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 212, in <module>
+    evaluate(hparams_file, run_opts, overrides)
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 193, in evaluate
+    target_brain.evaluate(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 795, in evaluate
+    adv_loss, adv_loss_target, stoi = self.evaluate_batch_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 492, in evaluate_batch_adversarial
+    predictions, adv_wav = self.compute_forward_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 308, in compute_forward_adversarial
+    adv_wavs = self.attacker.perturb_and_log(batch, tokenizer=self.tokenizer, log=self.hparams.my_log_file)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/attacker.py", line 91, in perturb_and_log
+    adv_wav = self.perturb(batch, tokenizer=tokenizer, log=log)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 662, in perturb
+    res = super(SNRPGDAttack, self).perturb(batch, tokenizer=tokenizer, log=log)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 377, in perturb
+    wav_adv = pgd_loop(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 116, in pgd_loop
+    loss2.backward(inputs = delta)
+  File "/home/praneet/.local/lib/python3.9/site-packages/torch/_tensor.py", line 307, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/praneet/.local/lib/python3.9/site-packages/torch/autograd/__init__.py", line 154, in backward
+    Variable._execution_engine.run_backward(
+KeyboardInterrupt
+2023-12-10 01:32:17,741 - speechbrain.core - INFO - Beginning experiment!
+2023-12-10 01:32:17,741 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-10 01:32:18,908 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-10 01:32:18,927 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-10 01:32:19,050 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-10 01:32:27,270 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:32:27,278 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:34:03,032 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 212, in <module>
+    evaluate(hparams_file, run_opts, overrides)
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 193, in evaluate
+    target_brain.evaluate(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 795, in evaluate
+    adv_loss, adv_loss_target, stoi = self.evaluate_batch_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 492, in evaluate_batch_adversarial
+    predictions, adv_wav = self.compute_forward_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 308, in compute_forward_adversarial
+    adv_wavs = self.attacker.perturb_and_log(batch, tokenizer=self.tokenizer, log=self.hparams.my_log_file)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/attacker.py", line 91, in perturb_and_log
+    adv_wav = self.perturb(batch, tokenizer=tokenizer, log=log)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 662, in perturb
+    res = super(SNRPGDAttack, self).perturb(batch, tokenizer=tokenizer, log=log)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 377, in perturb
+    wav_adv = pgd_loop(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 116, in pgd_loop
+    loss2.backward(inputs = delta)
+  File "/home/praneet/.local/lib/python3.9/site-packages/torch/_tensor.py", line 307, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/praneet/.local/lib/python3.9/site-packages/torch/autograd/__init__.py", line 154, in backward
+    Variable._execution_engine.run_backward(
+KeyboardInterrupt
+2023-12-10 01:35:42,224 - speechbrain.core - INFO - Beginning experiment!
+2023-12-10 01:35:42,225 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-10 01:35:43,409 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-10 01:35:43,427 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-10 01:35:43,547 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-10 01:35:51,749 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:35:51,757 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:36:39,491 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 212, in <module>
+    evaluate(hparams_file, run_opts, overrides)
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 193, in evaluate
+    target_brain.evaluate(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 795, in evaluate
+    adv_loss, adv_loss_target, stoi = self.evaluate_batch_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 492, in evaluate_batch_adversarial
+    predictions, adv_wav = self.compute_forward_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 308, in compute_forward_adversarial
+    adv_wavs = self.attacker.perturb_and_log(batch, tokenizer=self.tokenizer, log=self.hparams.my_log_file)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/attacker.py", line 91, in perturb_and_log
+    adv_wav = self.perturb(batch, tokenizer=tokenizer, log=log)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 663, in perturb
+    res = super(SNRPGDAttack, self).perturb(batch, tokenizer=tokenizer, log=log)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 378, in perturb
+    wav_adv = pgd_loop(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 100, in pgd_loop
+    predictions = asr_brain.compute_forward(batch, rs.Stage.ATTACK)
+  File "/home/praneet/mlsp-speech-noiser/sb_whisper_binding.py", line 52, in compute_forward
+    wavs = self.hparams.smoothing(wavs, wav_lens)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/defenses/smoothing.py", line 43, in __call__
+    return self.forward(*args, **kwargs)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/defenses/smoothing.py", line 26, in forward
+    sig_lens = [int(l*sigs.size(1)) for l in sig_lens]
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/defenses/smoothing.py", line 26, in <listcomp>
+    sig_lens = [int(l*sigs.size(1)) for l in sig_lens]
+KeyboardInterrupt
+2023-12-10 01:37:50,221 - speechbrain.core - INFO - Beginning experiment!
+2023-12-10 01:37:50,222 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-10 01:37:51,383 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-10 01:37:51,401 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-10 01:37:51,528 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-10 01:37:59,689 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:37:59,698 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:39:40,410 - speechbrain.core - INFO - Beginning experiment!
+2023-12-10 01:39:40,411 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-10 01:39:41,568 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-10 01:39:41,586 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-10 01:39:41,703 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-10 01:39:49,873 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:39:49,882 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:39:59,194 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 212, in <module>
+    evaluate(hparams_file, run_opts, overrides)
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 193, in evaluate
+    target_brain.evaluate(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 795, in evaluate
+    adv_loss, adv_loss_target, stoi = self.evaluate_batch_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 492, in evaluate_batch_adversarial
+    predictions, adv_wav = self.compute_forward_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 308, in compute_forward_adversarial
+    adv_wavs = self.attacker.perturb_and_log(batch, tokenizer=self.tokenizer, log=self.hparams.my_log_file)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/attacker.py", line 91, in perturb_and_log
+    adv_wav = self.perturb(batch, tokenizer=tokenizer, log=log)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 663, in perturb
+    res = super(SNRPGDAttack, self).perturb(batch, tokenizer=tokenizer, log=log)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 378, in perturb
+    wav_adv = pgd_loop(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 117, in pgd_loop
+    loss2.backward(inputs = delta)
+  File "/home/praneet/.local/lib/python3.9/site-packages/torch/_tensor.py", line 307, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/praneet/.local/lib/python3.9/site-packages/torch/autograd/__init__.py", line 154, in backward
+    Variable._execution_engine.run_backward(
+KeyboardInterrupt
+2023-12-10 01:40:29,182 - speechbrain.core - INFO - Beginning experiment!
+2023-12-10 01:40:29,183 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-10 01:40:30,355 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-10 01:40:30,374 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-10 01:40:30,498 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-10 01:40:38,704 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:40:38,712 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:40:45,905 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 212, in <module>
+    evaluate(hparams_file, run_opts, overrides)
+  File "/home/praneet/mlsp-speech-noiser/run_attack.py", line 193, in evaluate
+    target_brain.evaluate(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 795, in evaluate
+    adv_loss, adv_loss_target, stoi = self.evaluate_batch_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 492, in evaluate_batch_adversarial
+    predictions, adv_wav = self.compute_forward_adversarial(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/brain.py", line 308, in compute_forward_adversarial
+    adv_wavs = self.attacker.perturb_and_log(batch, tokenizer=self.tokenizer, log=self.hparams.my_log_file)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/attacker.py", line 91, in perturb_and_log
+    adv_wav = self.perturb(batch, tokenizer=tokenizer, log=log)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 663, in perturb
+    res = super(SNRPGDAttack, self).perturb(batch, tokenizer=tokenizer, log=log)
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 378, in perturb
+    wav_adv = pgd_loop(
+  File "/home/praneet/.local/lib/python3.9/site-packages/robust_speech/adversarial/attacks/pgd.py", line 100, in pgd_loop
+    predictions = asr_brain.compute_forward(batch, rs.Stage.ATTACK)
+  File "/home/praneet/mlsp-speech-noiser/sb_whisper_binding.py", line 79, in compute_forward
+    result = self.modules.whisper.model.loss(
+  File "/home/praneet/mlsp-speech-noiser/loss.py", line 415, in get_loss_single_segment
+    result: LossResult = get_loss_from_mel(
+  File "/home/praneet/mlsp-speech-noiser/loss.py", line 154, in get_loss_from_mel
+    result = LossTask(model, confidence, correct_first_word,
+  File "/home/praneet/mlsp-speech-noiser/loss.py", line 72, in run
+    audio_features: Tensor = self._get_audio_features(
+  File "/home/praneet/.local/lib/python3.9/site-packages/whisper/decoding.py", line 655, in _get_audio_features
+    audio_features = self.model.encoder(mel)
+  File "/home/praneet/.local/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/praneet/.local/lib/python3.9/site-packages/whisper/model.py", line 162, in forward
+    x = F.gelu(self.conv1(x))
+  File "/home/praneet/.local/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/praneet/.local/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 301, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/praneet/.local/lib/python3.9/site-packages/whisper/model.py", line 48, in _conv_forward
+    return super()._conv_forward(
+  File "/home/praneet/.local/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 297, in _conv_forward
+    return F.conv1d(input, weight, bias, self.stride,
+KeyboardInterrupt
+2023-12-10 01:41:01,270 - speechbrain.core - INFO - Beginning experiment!
+2023-12-10 01:41:01,270 - speechbrain.core - INFO - Experiment folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+2023-12-10 01:41:02,461 - speechbrain.utils.superpowers - DEBUG - absl-py==2.0.0
+asttokens==2.4.1
+astunparse==1.6.3
+audioread==3.0.1
+audiosegment==0.23.0
+audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git@6c9321550e3e1a74081699a8d0770f986647206c
+cachetools==5.3.2
+certifi==2020.6.20
+cffi==1.16.0
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.1.7
+cmake==3.27.7
+comm==0.2.0
+contourpy==1.2.0
+cycler==0.12.1
+dbus-python==1.2.16
+debugpy==1.8.0
+decorator==5.1.1
+distro-info==1.0
+exceptiongroup==1.2.0
+executing==2.0.1
+ffprobe==0.5
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.46.0
+fsspec==2023.10.0
+gast==0.5.4
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+httplib2==0.18.1
+huggingface-hub==0.17.3
+HyperPyYAML==1.2.2
+idna==2.10
+importlib-metadata==7.0.0
+importlib-resources==6.1.1
+ipykernel==6.27.1
+ipython==8.18.1
+jedi==0.19.1
+joblib==1.3.2
+jupyter-client==8.6.0
+jupyter-core==5.5.0
+keras==2.15.0
+kiwisolver==1.4.5
+lazy-loader==0.3
+libclang==16.0.6
+librosa==0.10.1
+lit==17.0.5
+llvmlite==0.41.1
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+ml-dtypes==0.2.0
+more-itertools==10.1.0
+msgpack==1.0.7
+nest-asyncio==1.5.8
+numba==0.58.1
+numpy==1.26.2
+nvidia-cublas-cu12==12.2.5.6
+nvidia-cuda-cupti-cu12==12.2.142
+nvidia-cuda-nvcc-cu12==12.2.140
+nvidia-cuda-nvrtc-cu12==12.2.140
+nvidia-cuda-runtime-cu12==12.2.140
+nvidia-cudnn-cu12==8.9.4.25
+nvidia-cufft-cu12==11.0.8.103
+nvidia-curand-cu12==10.3.3.141
+nvidia-cusolver-cu12==11.5.2.141
+nvidia-cusparse-cu12==12.1.2.141
+nvidia-nccl-cu12==2.16.5
+nvidia-nvjitlink-cu12==12.2.140
+oauthlib==3.2.2
+openai-whisper==20231106
+opt-einsum==3.3.0
+packaging==23.2
+pandas==2.1.4
+parso==0.8.3
+pexpect==4.9.0
+Pillow==10.1.0
+platformdirs==4.1.0
+pooch==1.8.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycairo==1.25.1
+pycparser==2.21
+pycurl==7.43.0.6
+pydub==0.25.1
+pygments==2.17.2
+PyGObject==3.38.0
+pyparsing==3.1.1
+PySimpleSOAP==1.16.2
+pystoi==0.3.3
+python-apt==2.2.1
+python-dateutil==2.8.2
+python-debian==0.1.39
+python-debianbts==3.1.0
+python-snappy==0.5.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.2
+regex==2023.10.3
+reportbug==7.10.3+deb11u1
+requests==2.31.0
+requests-oauthlib==1.3.1
+resampy==0.4.2
+robust-speech @ file:///home/prrathi10/mlsp-speech-noiser/robust_speech
+rsa==4.9
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
+safetensors==0.4.0
+scikit-learn==1.3.2
+scipy==1.11.3
+sentencepiece==0.1.99
+six==1.16.0
+soundfile==0.12.1
+soxr==0.3.7
+speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git@8810d4c1b17e23de02cf703d79df39cb6e33dd50
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+tensorrt==8.6.1.post1
+tensorrt-bindings==8.6.1
+tensorrt-libs==8.6.1
+termcolor==2.4.0
+threadpoolctl==3.2.0
+tiktoken==0.5.1
+tokenizers==0.14.1
+torch==1.10.0+cu111
+torch-stoi==0.1.2
+torchaudio @ file:///home/prrathi10/torchaudio-0.10.0%2Bcu111-cp39-cp39-linux_x86_64.whl
+torchvision==0.11.0+cu111
+tornado==6.4
+tqdm==4.66.1
+traitlets==5.14.0
+transformers==4.35.1
+triton==2.0.0
+typing-extensions==4.8.0
+tzdata==2023.3
+unattended-upgrades==0.1
+urllib3==1.26.5
+wcwidth==0.2.12
+webrtcvad==2.0.10
+werkzeug==3.0.1
+wrapt==1.14.1
+zipp==3.17.0
+
+
+2023-12-10 01:41:02,479 - speechbrain.utils.superpowers - DEBUG - e780f6f
+
+
+2023-12-10 01:41:02,603 - robust_speech.data.librispeech - INFO - Skipping preparation, completed in previous run.
+2023-12-10 01:41:10,795 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+2023-12-10 01:41:10,803 - speechbrain.core - INFO - 240.6M trainable parameters in WhisperASR
+Evaluation stage: TEST - test loss: 1.1121, test adv loss: 4.7364, test adv stoi: 9.9906e-01, test CER: 1.8120, test WER: 4.3596, test adv CER: 38.2906, test adv WER: 59.5267
+2023-12-11 06:56:42,335 - speechbrain.utils.train_logger - INFO - Evaluation stage: TEST - test loss: 1.1121, test adv loss: 4.7364, test adv stoi: 9.9906e-01, test CER: 1.8120, test WER: 4.3596, test adv CER: 38.2906, test adv WER: 59.5267
+ - test Adversarial SNR: {'average': 33.61757278442383, 'min_score': 23.0, 'max_score': 44.0}
+2023-12-11 06:56:42,536 - speechbrain.utils.train_logger - INFO -  - test Adversarial SNR: {'average': 33.61757278442383, 'min_score': 23.0, 'max_score': 44.0}

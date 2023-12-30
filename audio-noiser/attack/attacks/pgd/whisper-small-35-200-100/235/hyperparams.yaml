@@ -1,0 +1,83 @@
+# Generated 2023-12-10 from:
+# /home/praneet/mlsp-speech-noiser/attack_configs/whisper/pgd.yaml
+# yamllint disable
+# General information
+seed: 235
+__set_seed: !apply:torch.manual_seed [235]
+root: MLSP_Attack
+tokenizers_folder: MLSP_Attack/tokenizers
+
+# Hyparameters below are dependant on the attack and model used 
+# and should be changed at the user's discretion
+# -------------------------------------------------------------
+# Attack information
+snr: 35
+nb_iter: 200
+lambda_stoi: 100
+sample_rate: 16000
+attack_class: !name:robust_speech.adversarial.attacks.pgd.SNRPGDAttack
+  targeted: false
+  snr: 35
+  nb_iter: 200
+  lambda_stoi: 100
+  sample_rate: 16000
+save_audio: true
+load_audio: true
+attack_name: pgd
+
+# Model information
+model_label: small
+model_name: whisper-small
+target_brain_class: &id001 !name:sb_whisper_binding.WhisperASR
+target_brain_hparams_file: model_configs/small.yaml
+source_model_name: whisper-small
+source_brain_class: *id001
+source_brain_hparams_file: model_configs/small.yaml
+
+# Tokenizer information (compatible with target and source)
+tokenizer_name: multilingual
+tokenizer_builder: !name:whisper.tokenizer.get_tokenizer
+
+   # -------------------------------------------------------------
+
+output_folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+wer_file: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235/wer.txt
+adv_wer_file: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235/adv_wer.txt
+save_folder: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235
+log: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235/log.txt
+save_audio_path: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235/save
+
+dataset_prepare_fct: !name:robust_speech.data.librispeech.prepare_librispeech
+dataio_prepare_fct: !name:robust_speech.data.dataio.dataio_prepare
+
+# Data files
+data_folder: MLSP_Attack/data/LibriSpeech # e.g, /localscratch/LibriSpeech
+csv_folder: MLSP_Attack/data/LibriSpeech/csv # e.g, /localscratch/LibriSpeech
+# If RIRS_NOISES dir exists in /localscratch/xxx_corpus/RIRS_NOISES
+# then data_folder_rirs should be /localscratch/xxx_corpus
+# otherwise the dataset will automatically be downloaded
+test_splits: [test-clean-2]
+skip_prep: true
+ckpt_interval_minutes: 15 # save checkpoint every N min
+data_csv_name: data/test-clean-100
+test_csv:
+- MLSP_Attack/data/LibriSpeech/csv/data/test-clean-100.csv
+batch_size: 1 # This works for 2x GPUs with 32GB
+avoid_if_longer_than: 14.0
+sorting: random
+
+# Feature parameters
+n_fft: 400
+n_mels: 80
+
+# Decoding parameters (only for text_pipeline)
+blank_index: 0
+bos_index: 1
+eos_index: 2
+
+test_dataloader_opts:
+  batch_size: 1
+
+logger: !new:speechbrain.utils.train_logger.FileTrainLogger
+  save_file: MLSP_Attack/attacks/pgd/whisper-small-35-200-100/235/log.txt
+
