@@ -4,3 +4,6 @@
 [submodule "speechbrain"]
 	path = speechbrain
 	url = https://github.com/prrathi/speechbrain
+[submodule "deepfake_attack"]
+	path = deepfake_attack
+	url = https://github.com/xelas-bot/deepfake_attack.git
